@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayoutActivity">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_1" android:text="@string/lbl_1"
+        android:background="#ff0000" android:gravity="center"/>
+    <TextView
+        android:layout_below="@id/txt_3" android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_2" android:text="@string/lbl_2"
+        android:background="#00ff00" android:gravity="center"/>
+    <TextView
+        android:layout_below="@id/txt_1" android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_3" android:text="@string/lbl_3"
+        android:background="#0000ff" android:gravity="center"/>
+</RelativeLayout>

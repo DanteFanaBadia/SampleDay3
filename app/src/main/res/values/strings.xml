@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SampleDay3</string>
+    <string name="lbl_btn_linear_layout_vertical">LinearLayout Vertical</string>
+    <string name="lbl_1">1</string>
+    <string name="lbl_2">2</string>
+    <string name="lbl_3">3</string>
+    <string name="lbl_btn_linear_layout_horizontal">LinearLayout Horizontal</string>
+    <string name="btn_lbl_relative_layout">RelativeLayout</string>
+    <string name="btn_lbl_table_layout">TableLayout</string>
+    <string name="btn_lbl_frame_layout">FrameLayout</string>
+    <string name="btn_lbl_constraint_layout">ConstraintLayout</string>
+    <string name="btn_lbl_list_view">ListView</string>
+    <string name="btn_lbl_grid_view">GridView</string>
+    <string name="btn_lbl_custom_adapter">Custom Adapter</string>
+</resources>
